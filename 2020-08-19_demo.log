@@ -1,0 +1,4 @@
+Zeitstempel|LogVersion|Kunde|Maschine|Prozess|Typ|Nachricht|DynamischerWert
+2020-08-19T12:35:27|v0.2|Demo|VM4711||duration_run|Prozess ist 6 Sekunden gelaufen|6
+2020-08-19T12:35:27|v0.2|Demo|VM4711||handedoff_cycle|Prozess wurde 1 mal an eine Person übergeben|1
+2020-08-19T12:35:28|v0.2|Demo|VM4711||info|This is the Weissenberg Log Activity|
