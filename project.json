@@ -6,22 +6,28 @@
     "UiPath.Excel.Activities": "[2.8.3-beta.890325]",
     "UiPath.Mail.Activities": "[1.8.3-beta.889642]",
     "UiPath.System.Activities": "[20.4.0-beta.889657]",
-    "UiPath.UIAutomation.Activities": "[20.4.0-beta.891721]"
+    "UiPath.UIAutomation.Activities": "[20.4.1]"
   },
   "webServices": [],
+  "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "20.4.0.0",
   "projectVersion": "2.0.0",
   "runtimeOptions": {
     "autoDispose": false,
+    "netFrameworkLazyLoading": false,
     "isPausable": true,
+    "isAttended": false,
     "requiresUserInteraction": true,
     "supportsPersistence": false,
     "excludedLoggedData": [
       "Private:*",
       "*password*"
     ],
-    "executionType": "Workflow"
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": false
   },
   "designOptions": {
     "projectProfile": "Developement",
@@ -30,7 +36,11 @@
       "includeOriginalXaml": false,
       "privateWorkflows": []
     },
-    "fileInfoCollection": []
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": false
   },
   "arguments": {
     "input": [
@@ -43,5 +53,17 @@
     ],
     "output": []
   },
-  "expressionLanguage": "VisualBasic"
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "bcb2063f-836c-455c-944f-87f00199af8c",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Legacy"
 }
